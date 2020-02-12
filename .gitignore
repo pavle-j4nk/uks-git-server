@@ -113,3 +113,6 @@ fabric.properties
 
 # Python virtual environment
 venv
+
+# Repositories
+repository
