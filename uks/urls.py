@@ -16,5 +16,5 @@ Including another URLconf
 from django.urls import include, re_path
 
 urlpatterns = [
-    re_path(r'^(?P<username>[\w\-]+)/(?P<repository>\w+\.git)/(?P<path>.*)', include('gitServer.urls')),
+    re_path(r'^(?P<username>[\w\-]+)/(?P<repository>[\w\-]+\.git)/(?P<path>.*)', include('gitServer.urls')),
 ]
