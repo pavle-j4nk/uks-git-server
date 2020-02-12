@@ -1,7 +1,8 @@
 # Django GIT server
 
-## Environment
-Install dependencies  
+## Environment setup
+1) Install Git and Python3    
+2) Install python dependencies  
 `pip install django gitpython`
 
 ## Usage
