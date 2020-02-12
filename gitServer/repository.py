@@ -15,6 +15,6 @@ def create_repository(username, repository):
 
 def create_repository_directory(username, repository):
     repo_dir = os.path.join(REPOSITORIES_DIR, username, repository + ".git")
-    os.mkdir(repo_dir)
+    os.makedirs(repo_dir, exist_ok=True)
 
     return repo_dir
